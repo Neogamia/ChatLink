@@ -20,6 +20,6 @@ client.login(process.env.token);
 
 receiveFromSocket(client);
 
-checkEvent('playerJoined', client);
 checkEvent('playerDeath', client);
 checkEvent('playerDisconnected', client);
+checkEvent('playerJoined', client);
